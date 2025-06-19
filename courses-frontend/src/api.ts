@@ -7,7 +7,7 @@ import { Course, Instance } from './types'
  */
 const API_BASE =
   process.env.NODE_ENV === 'production'
-    ? 'http://localhost:8008'
+    ? 'http://137.184.235.156:8008'
     : ''
 
 async function handleResponse<T>(res: Response): Promise<T> {
